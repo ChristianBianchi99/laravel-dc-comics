@@ -4,6 +4,9 @@
     <div class="container">
         <div class="row my-5">
             <div class="col-12">
+                <a class="btn btn-secondary btn-sm" href="{{ route('comic.create')}}">
+                    Aggiungi un elemento nuovo
+                </a>
                 <table class="table">
                     <thead>
                         <tr>
@@ -41,9 +44,6 @@
                                     <td>
                                         <a class="btn btn-info btn-sm" href="{{ route('comic.show', $comic->id)}}">
                                             <i class="fa-solid fa-eye"></i>
-                                        </a>
-                                        <a class="btn btn-secondary btn-sm" href="{{ route('comic.create')}}">
-                                            <i class="fa-solid fa-plus"></i>
                                         </a>
                                     </td>
                                 </tr>

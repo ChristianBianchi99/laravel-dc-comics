@@ -11,11 +11,11 @@
                     @csrf
                     <div class="mb-3">
                         <label for="title" class="form-label">Titolo</label>
-                        <input class="form-control" type="text" id="title">
+                        <input class="form-control" type="text" name="title" id="title">
                     </div>
                     <div class="mb-3">
-                        <label for="title" class="form-label">Serie</label>
-                        <input class="form-control" type="text" id="title">
+                        <label for="series" class="form-label">Serie</label>
+                        <input class="form-control" type="text" name="series" id="series">
                     </div>
                     <div class="mb-3">
                         <label for="type" class="form-label">Tipologia</label>
@@ -26,8 +26,8 @@
                         </select>
                     </div>
                     <div class="mb-3">
-                        <label for="title" class="form-label">Uscita</label>
-                        <input class="form-control" type="date" id="title">
+                        <label for="sale_date" class="form-label">Uscita</label>
+                        <input class="form-control" type="date" name="sale_date" id="sale_date">
                     </div>
                     <div class="mb-3">
                         <label for="description" class="form-label">Descrizione</label>
