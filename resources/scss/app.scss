@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://images.alphacoders.com/104/1046632.jpg');
+    background-size: cover;
+}
+/* Layout */
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Utilities */
+.h-100vh{
+    height: 100vh;
+}
+.h-100{
+    height: 100%;
+}
+.w-100{
+    width: 100%;
+}
