@@ -39,8 +39,11 @@
                                         {{$comic->sale_date}}
                                     </td>
                                     <td>
-                                        <a class="btn btn-secondary btn-sm" href="{{ route('comic.show', $comic->id)}}">
+                                        <a class="btn btn-info btn-sm" href="{{ route('comic.show', $comic->id)}}">
                                             <i class="fa-solid fa-eye"></i>
+                                        </a>
+                                        <a class="btn btn-secondary btn-sm" href="{{ route('comic.create')}}">
+                                            <i class="fa-solid fa-plus"></i>
                                         </a>
                                     </td>
                                 </tr>
