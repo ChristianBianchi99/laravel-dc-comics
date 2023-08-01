@@ -15,6 +15,32 @@ body{
     align-items: center;
     justify-content: center;
 }
+/* General */
+.container-bg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.comic-details{
+    color: white;
+    h3, strong{
+        color: darkgray;
+    }
+}
+.autors{
+    align-self: flex-end;
+}
+.autors, .artists, .writers{
+    display: flex;
+    strong{
+        margin-right: 10px;
+    }
+    p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+.writers{
+    margin-left: 15px;
+}
 /* Utilities */
 .h-100vh{
     height: 100vh;
